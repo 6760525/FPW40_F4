@@ -1,0 +1,15 @@
+.img-recipe-table {
+    width: 100px !important;
+    margin: auto 10px;
+}
+
+.img-recipe-table img{
+    width: 10px !important;
+    border-radius: 10px;
+}
+
+.name-category {
+    width: 15%;
+    margin: auto;
+}
+

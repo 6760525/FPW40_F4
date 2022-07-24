@@ -1,0 +1,64 @@
+.recipe-detail-container {
+    text-align: center;
+}
+
+.recipe-detail-white-list {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: rgba(250, 235, 215, 0.62);
+    margin: 10px 0 0 0;
+    width: 100%;
+    height: 85vh;
+    border: 1px solid black;
+    overflow-y: scroll;
+}
+
+.detail-wrapper {
+    padding: 20px;
+}
+
+.detail-img-title-description {
+    display: flex;
+}
+
+.detail-title-description {
+    padding: 10px;
+}
+
+.detail-main-photo {
+    display: block;
+    margin: 10px;
+    width: 800px;
+}
+
+.detail-main-photo img {
+    width: 400px;
+    margin: 100px 50px;
+    border-radius: 10px;
+}
+
+.detail-name-category {
+    display: flex;
+    justify-content: center;
+}
+
+.detail-cooking-method {
+    padding: 10px;
+}
+
+.detail-wrapper p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: large;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .detail-img-title-description {
+        display: block;
+        justify-content: center;
+    }
+    .detail-main-photo {
+        width: 100%;
+        margin: auto;
+    }
+
+}

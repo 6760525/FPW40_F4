@@ -1,0 +1,23 @@
+.ric-list-container {
+    display: block;
+    text-align: center;
+}
+
+.ric-list-white-list {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: rgba(241, 176, 250, 0.5);
+    margin: 10px 0 0 0;
+    width: 100%;
+    height: 85vh;
+    border: 1px solid black;
+    padding-bottom: 20px;
+    overflow-y: scroll;
+}
+
+.ric-list-recipes-container {
+    margin-bottom: 20px;
+}
+
+.nav-link-category {
+    margin-bottom: 20px;
+}

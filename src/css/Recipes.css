@@ -1,0 +1,40 @@
+.list-container {
+    display: block;
+    text-align: center;
+}
+
+.list-white-list {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: rgba(253, 185, 200, 0.65);
+    margin: 10px 0 0 0;
+    width: 100%;
+    height: 85vh;
+    border: 1px solid black;
+    padding-bottom: 20px;
+    overflow-y: scroll;
+}
+
+.table-recipes {
+    margin: 0 10px 10px 20px;
+}
+
+.table-thead {
+    font-size: 22px;
+}
+
+table {
+    border-collapse: collapse;
+    border: none;
+    vertical-align: middle;
+}
+
+td {
+    vertical-align: middle;
+}
+
+tr {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+
